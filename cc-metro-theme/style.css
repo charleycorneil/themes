@@ -1,0 +1,123 @@
+/*
+Theme Name: CC Metro Theme
+Author: Charley Corneil
+Version: 1.0
+Description: A WordPress theme for The Metro Report assignment.
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f1ea;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f1ea;
+  border-bottom: 2px solid #116122;
+}
+
+header a {
+  text-decoration: none;
+  color: #116122;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #116122;
+  font-size: 16px;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #0f461b;
+}
+
+.p-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.p-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.p-title {
+  margin: 0 0 10px 0;
+  font-size: 22px;
+}
+
+.p-title a {
+  color: #116122;
+  text-decoration: none;
+}
+
+.p-title a:hover {
+  text-decoration: underline;
+}
+
+.p-date,
+.p-author {
+  font-size: 14px;
+  color: #666;
+  margin: 6px 0;
+}
+
+.p-excerpt {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.single-post,
+.single-page {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #f5f1ea;
+  border-top: 2px solid #116122;
+  color: #116122;
+}
